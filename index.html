@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="js/control.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <title>New Web Project</title>
+    </head>
+    <body style="position: relative;background-color: white">
+        <div class="container">
+            <form method="post" id="frmLogin" action="#" class="frmlogin">
+                <span class="text1">
+                                                   账号：<input id="UserName" class="input1" name="user" type="text" onchange="onchange(this.id)"/>
+                </span>
+                <br>
+                <span class="text2">
+                                                    密码：<input id="Password" class="input2" type="password" onchange="onchange(this.id)"/>
+                </span>
+                <br>
+                <span class="text3">
+                    <input id="reset1" type="reset" value="重设"/>
+                    <input id="submit" type="submit" value="登录" onclick="return Submit1_onclick()"/>
+                </span>
+            </form>
+        </div>
+    </body>
+</html>

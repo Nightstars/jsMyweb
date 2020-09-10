@@ -1,0 +1,8 @@
+.container{border-right:silver 1px solid;border-top:silver 1px solid;border-left:silver 1px solid;border-bottom:silver 1px solid;
+background-color:white;font-size:12px;font-style:normal;width: 330px;height:137px}
+.frmlogin{position: absolute" left:17px;top:22px;width:320px;height:137px;}
+.text1{left:42px;position:absolute;top:23px;width:177px;}
+.input1{height:13px;width:134px;}
+.text2{left:42px;position: absolute;top:50px;}
+.input2{height:13px;width:134px;}
+.text3{position: absolute;left: 225px;top:25px;width: 38px;}
